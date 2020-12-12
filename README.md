@@ -5,7 +5,7 @@ This project contains 2 files, one for connecting two prototypes directly(NonBlu
 ### BluetoothLock.c
 Before using the program, it is necessary to configure the HC-05 module as a master device.
 To do this, enter 2 commands into the module:
-AT+ROLE=1
+AT+ROLE=1, 
 AT+CMODE=0
 
 After that, it is necessary to find out the Mac address of the second device and connect 2 Bluetooth modules:
